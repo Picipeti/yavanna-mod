@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Sacred altar",
+		"uniqueTo": "Lithuania",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 1,
+		"uniques": ["Tile provides yield without assigned population"]
+	},
+]

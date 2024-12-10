@@ -1,0 +1,73 @@
+[
+	{
+		"name": "Var",
+		"replaces": "Castle",
+		"uniqueTo": "Hungary", 
+		"cityStrength": 9,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+       	"cost": 160,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Vihara",
+		"replaces": "Temple",
+		"uniqueTo": "Champa", 
+		"maintenance": 2,
+		"faith": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+       		"cost": 100,
+		"uniques": ["[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Prasat",
+		"replaces": "Castle",
+		"uniqueTo": "The Khmer",
+		"faith": 2,
+		"maintenance": 1,
+		"specialistSlots": {"Artist": 1, "Engineer": 1},
+		"cityStrength": 7,
+		"cityHealth": 25,
+       		"cost": 200,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["Provides 1 Artist and 1 Engineer specialist slots."],
+		"requiredTech": "Chivalry"
+	},
+{
+		"name": "Water Puppet Theatre",
+		"replaces": "Opera House",
+		"uniqueTo": "Viet Nam", 
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"uniques": ["[+2 Culture] from [Lakes] tiles [in this city]"]
+		"requiredTech": "Acoustics"
+	},
+
+		{
+		"name": "Stave Church",
+		"replaces": "Temple",
+		"uniqueTo": "Norway",
+		"faith": 2,
+		"cost": 50,
+		"requiredTech": "Philosophy",
+	},
+		{
+		"name": "Kumbum",
+		"replaces": "Temple",
+		"uniqueTo": "Tibet", 
+		"hurryCostModifier": 25,
+       	"cost": 100,
+		"faith": 1,
+		"maintenance": 2,
+		"uniques": ["[+1 Faith] from [Hill] tiles [in this city]"],
+		"requiredTech": "Philosophy"
+	},
+]
